@@ -13,12 +13,53 @@
   width: 100%;
 }
 
+.collection h5 {
+  text-transform: uppercase;
+}
+
+.collection img {
+  height: 250px !important;
+}
+
 .carousel-inner img {
   width: 100% !important;
   height: 50vh !important;
 }
 
+.choose {
+  background-color: #efd897;
+  padding: 40px 30px;
+}
+
+.story {
+  background-color: #333333;
+  padding: 40px 30px;
+  color: white;
+}
+
+.choose h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid black;
+  margin: 10px 40%;
+}
+
+.story h3 {
+  padding-bottom: 10px;
+  border-bottom: 1px solid white;
+  margin: 10px 40%;
+}
+
+.choose p,
+.story p {
+  text-align: justify;
+  text-transform: capitalize;
+}
+
 .social i {
   font-size: 20px;
   padding: 10px;
+}
+
+footer p a {
+  color: white;
 }
