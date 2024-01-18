@@ -13,6 +13,11 @@
   width: 100%;
 }
 
+.text,
+.collection .card-text {
+  text-align: justify;
+}
+
 .collection h5 {
   text-transform: uppercase;
 }
@@ -21,6 +26,10 @@
   height: 250px !important;
 }
 
+.collection a {
+  text-decoration: none;
+  color: black;
+}
 .carousel-inner img {
   width: 100% !important;
   height: 50vh !important;
@@ -40,13 +49,11 @@
 .choose h3 {
   padding-bottom: 10px;
   border-bottom: 1px solid black;
-  margin: 10px 40%;
 }
 
 .story h3 {
   padding-bottom: 10px;
   border-bottom: 1px solid white;
-  margin: 10px 40%;
 }
 
 .choose p,
@@ -62,4 +69,24 @@
 
 footer p a {
   color: white;
+}
+
+@media (max-width: 550px) {
+  .choose h3 {
+    margin: 10px 20%;
+  }
+
+  .story h3 {
+    margin: 10px 33%;
+  }
+}
+
+@media (min-width: 551px) {
+  .choose h3 {
+    margin: 10px 35%;
+  }
+
+  .story h3 {
+    margin: 10px 40%;
+  }
 }
