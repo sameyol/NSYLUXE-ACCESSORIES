@@ -19,8 +19,7 @@
 }
 
 .custom-image {
-  height: 250px;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .dark-overlay {
@@ -48,4 +47,16 @@
 
 footer p a {
   color: white;
+}
+
+@media (max-width: 550px) {
+  .custom-image {
+    height: 600px;
+  }
+}
+
+@media (min-width: 551px) {
+  .custom-image {
+    height: 250px;
+  }
 }
